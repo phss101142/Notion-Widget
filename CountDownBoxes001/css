@@ -1,0 +1,26 @@
+#countdown {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: auto;
+}
+
+.countdown-item {
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #333; /* 무채색으로 설정 */
+}
+
+.countdown-item span {
+  display: block;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+}
